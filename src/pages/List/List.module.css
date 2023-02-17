@@ -1,0 +1,23 @@
+.wrapper {
+    padding: 16px;
+    color: var(--text-color);
+}
+
+.text {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list li {
+    display: flex;
+}
+
+.todo {
+    margin-left: 8px;
+}

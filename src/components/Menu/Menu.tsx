@@ -1,10 +1,11 @@
-import { Link } from "react-router-dom"
+import { NavigationButton } from 'components/NavigationButton';
+import styles from './Menu.module.css';
 
 export const Menu = () => {
-    return (
-      <div>
-        <Link to="/">Random Task</Link>
-        <Link to="/list">Task List</Link>
-      </div>
-    );
-}
+  return (
+    <div className={styles.menu}>
+      <NavigationButton to="/">Random Task</NavigationButton>
+      <NavigationButton to="/list">Task List</NavigationButton>
+    </div>
+  );
+};

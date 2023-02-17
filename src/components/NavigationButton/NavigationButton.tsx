@@ -1,9 +1,10 @@
-import { ReactElement } from 'react';
+import { ReactNode } from 'react';
 import { Link } from 'react-router-dom';
+import styles from './NavigationButton.module.css';
 
 interface Props {
   to: string;
-  children: ReactElement;
+  children: ReactNode;
 }
 
-export const NavigationButton = ({ to, children }: Props) => <Link to={to}>{children}</Link>;
+export const NavigationButton = ({ to, children }: Props) => <Link className={styles.link} to={to}>{children}</Link>;
