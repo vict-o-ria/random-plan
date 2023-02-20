@@ -1,4 +1,4 @@
 # random-plan
 
-npm i
-npm start
+### `npm i`
+### `npm start`

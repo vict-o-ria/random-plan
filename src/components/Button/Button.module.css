@@ -8,6 +8,7 @@
     font-weight: 500;
     border-radius: 6px;
     cursor: pointer;
+    margin: 8px;
 }
 
 .button:hover {
@@ -19,4 +20,14 @@
     transition: background-color 1s;
     background-color: var(--hovered-button);
     cursor: auto;
+}
+
+.warn {
+    background-color: var(--red);
+    color: indianred;
+    border: 1px solid indianred;
+}
+
+.warn:hover {
+    background-color: var(--red);
 }

@@ -3,9 +3,19 @@
     color: var(--text-color);
 }
 
+.list-wrapper {
+    background-color: var(--background);
+    padding: 16px;
+    border-radius: 6px;
+    border: 2px solid var(--hovered-button);
+}
+
 .text {
     font-weight: 500;
     font-size: 18px;
+    margin: 0;
+    padding-bottom: 4px;
+    border-bottom: 3px solid var(--hovered-button);
 }
 
 .list {
@@ -17,8 +27,14 @@
 .list li {
     display: flex;
     align-items: center;
+    border-bottom: 1px solid var(--hovered-button);
 }
 
 .todo {
     margin-left: 8px;
+}
+
+.buttons-group {
+    display: flex;
+    justify-content: flex-end;
 }
