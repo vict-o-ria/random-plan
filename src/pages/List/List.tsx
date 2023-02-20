@@ -23,6 +23,7 @@ export const List = () => {
 
   const deleteAllTasks = () => {
     setList([]);
+    setIsOpen(false);
   };
 
   return (
