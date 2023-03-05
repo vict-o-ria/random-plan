@@ -13,6 +13,7 @@ export const App = () => {
       if (navigator.onLine) {
         setOffline(false);
       } else {
+        console.log('offline')
         setOffline(true);
       }
     };
